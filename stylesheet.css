@@ -73,3 +73,23 @@ img {
     top: 105vw;
     left: 12vw;
 }
+
+#continue {
+    background-image: url(Continue.svg);
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 160vw;
+    left: 12vw;
+}
+
+#loginfacebook {
+    background-image: url(Login.svg);
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 180vw;
+    left: 12vw;
+}
