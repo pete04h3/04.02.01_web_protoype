@@ -1,0 +1,75 @@
+body {
+    background-color: #FAF7F7;
+    margin: 0;
+
+
+}
+
+header {
+    background-image: url(kealogo.svg);
+    background-size: 35vw;
+    width: 40vw;
+    height: 10vw;
+    position: absolute;
+    top: 25vw;
+    left: 33vw;
+    background-repeat: no-repeat;
+
+
+}
+
+img {
+    width: 100%
+}
+
+#statusbartid {
+
+    background-image: url(Bars-_-Time%20Black.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 20vw;
+
+
+
+
+
+}
+
+#statusbarbatteriwifi {
+    background-image: url(Group%201611.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 50vw;
+    left: 80vw;
+    top: 1vw
+}
+
+#orange {
+    background-color: #EA5045;
+    width: 375vw;
+    height: 55vw;
+
+
+}
+
+#login {
+    background-image: url(inputs.svg);
+    width: 100vw;
+    height: 100vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 85vw;
+    left: 12vw;
+}
+
+#login2 {
+    background-image: url(inputs-1.svg);
+    width: 100vw;
+    height: 100vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 105vw;
+    left: 12vw;
+}
