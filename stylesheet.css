@@ -1,18 +1,28 @@
 body {
     background-color: #FAF7F7;
     margin: 0;
-
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    padding: 0;
 
 }
 
+
+html {
+    max-width:
+}
+
+
+
 header {
     background-image: url(kealogo.svg);
-    background-size: 35vw;
+    background-size: 30vw;
     width: 40vw;
     height: 10vw;
     position: absolute;
     top: 25vw;
-    left: 33vw;
+    left: 35vw;
     background-repeat: no-repeat;
 
 
@@ -21,6 +31,8 @@ header {
 img {
     width: 100%
 }
+
+
 
 #statusbartid {
 
@@ -46,13 +58,17 @@ img {
     top: 1vw
 }
 
-#orange {
+#orangebackground {
     background-color: #EA5045;
-    width: 375vw;
+    width: 100vw;
     height: 55vw;
-
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
+
+
+
 
 #login {
     background-image: url(inputs.svg);
