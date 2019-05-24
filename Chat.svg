@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="264" height="24" viewBox="0 0 264 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f58e81;
+        font-size: 20px;
+        font-family: Gibson-SemiBold, Gibson;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <text id="Chat" class="cls-1"><tspan x="110.62" y="16">Chat</tspan></text>
+</svg>
