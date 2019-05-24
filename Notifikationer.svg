@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="78" height="12" viewBox="0 0 78 12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f58e81;
+        font-size: 12px;
+        font-family: Gibson-SemiBold, Gibson;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <text id="Notifikationer" class="cls-1" transform="translate(39 10)"><tspan x="-38.604" y="0">Notifikationer</tspan></text>
+</svg>

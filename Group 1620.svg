@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="65" viewBox="0 0 40 65">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #ea847c;
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        fill: #f58e81;
+        font-size: 12px;
+        font-family: Gibson-SemiBold, Gibson;
+        font-weight: 600;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="40" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1620" data-name="Group 1620" transform="translate(-770 218)">
+    <g id="Messages" class="cls-2" transform="translate(770 -218)">
+      <rect id="Rectangle_117" data-name="Rectangle 117" class="cls-1" width="40" height="40"/>
+      <path id="Path_50" data-name="Path 50" class="cls-3" d="M35,6H5L20,21ZM0,6C0,2.7,2.25,0,5,0H35c2.75,0,5,2.7,5,6V30c0,3.3-2.25,6-5,6H5c-2.75,0-5-2.7-5-6Z" transform="translate(0 2)"/>
+    </g>
+    <text id="Mail" class="cls-4" transform="translate(790 -155)"><tspan x="-11.868" y="0">Mail</tspan></text>
+  </g>
+</svg>

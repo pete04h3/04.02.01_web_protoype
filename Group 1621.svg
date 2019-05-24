@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="68" viewBox="0 0 70 68">
+  <defs>
+    <style>
+      .cls-1, .cls-6 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #f58e81;
+        font-size: 12px;
+        font-family: Gibson-SemiBold, Gibson;
+        font-weight: 600;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-5 {
+        fill: #ea847c;
+      }
+
+      .cls-6 {
+        stroke: #f58e81;
+        stroke-linejoin: round;
+        stroke-width: 4px;
+      }
+
+      .cls-7 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="43" height="43"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect class="cls-1" width="16" height="16"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1621" data-name="Group 1621" transform="translate(-879 219)">
+    <text id="Afleveringer" class="cls-2" transform="translate(914 -154)"><tspan x="-34.482" y="0">Afleveringer</tspan></text>
+    <g id="Component_5_3" data-name="Component 5 – 3" class="cls-3" transform="translate(892 -219)">
+      <g id="Down_arrow" data-name="Down arrow" class="cls-4" transform="translate(30 30) rotate(180)">
+        <path id="Path_10" data-name="Path 10" class="cls-5" d="M8,0,6.545,1.455l5.506,5.506H0V9.039H12.052L6.545,14.545,8,16l8-8Z" transform="translate(16) rotate(90)"/>
+      </g>
+      <g id="Rectangle_1479" data-name="Rectangle 1479" class="cls-6">
+        <rect class="cls-7" width="43" height="43" rx="5"/>
+        <rect class="cls-1" x="2" y="2" width="39" height="39" rx="3"/>
+      </g>
+    </g>
+  </g>
+</svg>
