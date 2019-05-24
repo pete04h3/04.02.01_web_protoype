@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="52" viewBox="0 0 36 52">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        font-size: 16px;
+        font-family: Gibson-Regular, Gibson;
+      }
+
+      .cls-2 {
+        font-size: 9px;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: Gibson-SemiBold, Gibson;
+        font-weight: 600;
+      }
+
+      .cls-3 {
+        font-size: 14px;
+      }
+    </style>
+  </defs>
+  <g id="Group_1624" data-name="Group 1624" transform="translate(-170 -180)">
+    <text id="_20" data-name="20" class="cls-1" transform="translate(188 229)"><tspan x="-9.376" y="0">20</tspan></text>
+    <text id="Mandag" class="cls-2" transform="translate(188 209)"><tspan x="-17.194" y="0">Mandag</tspan></text>
+    <text id="Maj" class="cls-3" transform="translate(188 191)"><tspan x="-11.935" y="0">Maj</tspan></text>
+  </g>
+</svg>

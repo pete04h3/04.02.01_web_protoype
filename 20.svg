@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 16px;
+        font-family: Gibson-Regular, Gibson;
+      }
+    </style>
+  </defs>
+  <text id="_20" data-name="20" class="cls-1" transform="translate(10 13)"><tspan x="-9.376" y="0">20</tspan></text>
+</svg>

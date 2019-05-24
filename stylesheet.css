@@ -617,3 +617,127 @@ img {
 
 
 }
+
+/* burgermenu slut */
+/*******************/
+/* skema */
+#lightgreybox {
+    background-color: #DEDCDB;
+    width: 100vw;
+    height: 25vw;
+    position: absolute;
+}
+
+/* tema/semester/skema txt i lightgreybox */
+.tematxt {
+    background-image: url(Tema%204Basic%20UX.svg);
+    width: 30vw;
+    height: 20vw;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 8vw;
+    left: 80vw;
+    transform: scale(1.04)
+}
+
+.skemaogsemestertxt {
+    background-image: url(SkemaSemester%201.svg);
+    width: 30vw;
+    height: 20vw;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 7vw;
+    left: 3vw;
+
+}
+
+/* darkgreybox */
+#darkgreybox {
+    background-color: #3F3140;
+    width: 100vw;
+    height: 20vw;
+    position: absolute;
+    margin-top: 25vw
+}
+
+/* pile */
+
+.pilvenstre {
+    background-image: url(Backward%20arrow%20small.svg);
+    width: 3vw;
+    height: 3vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 8vw;
+    left: 32vw;
+}
+
+.pilhoejre {
+    background-image: url(Forward%20arrow%20small.svg);
+    width: 3vw;
+    height: 3vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 8vw;
+    left: 65.5vw;
+}
+
+/* maaneddagdato box */
+.maaneddagdato {
+    width: 15vw;
+    height: 15vw;
+    position: absolute;
+    top: 2vw;
+    left: 42.8vw;
+}
+
+
+.maaned {
+    background-image: url(Maj.svg);
+    width: 6vw;
+    height: 5vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1vw;
+    left: 5vw
+}
+
+.dag {
+    background-image: url(Mandag.svg);
+    width: 10vw;
+    height: 2vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 7vw;
+    left: 3vw
+}
+
+.dato {
+    background-image: url(20.svg);
+    width: 6vw;
+    height: 5vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10.5vw;
+    left: 5vw;
+}
+
+/* skema & tid */
+/* darkfooterbox */
+.darkfooterbox {
+    background-color: #3F3140;
+    width: 100vw;
+    height: 20vw;
+    position: absolute;
+    top: 200vw;
+}
+
+.darkfooterboxskemaikon {
+    background-image: url(skemaikondarkbox.svg);
+    width: 100vw;
+    height: 100vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 8vw;
+    left: 42vw
+}

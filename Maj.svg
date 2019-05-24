@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="14" viewBox="0 0 24 14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 14px;
+        font-family: Gibson-SemiBold, Gibson;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <text id="Maj" class="cls-1" transform="translate(12 11)"><tspan x="-11.935" y="0">Maj</tspan></text>
+</svg>
