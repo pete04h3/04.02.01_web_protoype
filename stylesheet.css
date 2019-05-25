@@ -1045,3 +1045,108 @@ img {
 }
 
 /* skema skærm slut */
+
+/********************/
+/* Materialer skærm start */
+
+.materialerogsemestertxt {
+    background-image: url(MaterialerSemester%201.svg);
+    width: 30vw;
+    height: 20vw;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 7vw;
+    left: 3vw;
+
+}
+
+/* skema ikon materialer */
+.skemaikonmaterialer {
+    background-image: url(Path%20310.svg);
+    width: 100vw;
+    height: 20vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 12vw;
+    left: 25vw;
+
+}
+
+/* materialer boxe med txt */
+.infobox1 {
+    background-color: #F2F1F0;
+    width: 90vw;
+    height: 20vw;
+    position: absolute;
+    top: 75vw;
+    left: 5vw;
+}
+
+.infotxt1 {
+    background-image: url(materialertxt1.svg);
+    width: 100vw;
+    height: 20vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 5vw;
+    left: 3vw;
+}
+
+.downloadikon {
+    background-image: url(downloadikon.svg);
+    width: 6vw;
+    height: 6vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 12vw;
+    left: 80vw;
+}
+
+.infobox2 {
+    background-color: #F2F1F0;
+    width: 90vw;
+    height: 20vw;
+    position: absolute;
+    top: 98vw;
+    left: 5vw;
+}
+
+.infotxt2 {
+    background-image: url(materialertxt2.svg);
+    width: 100vw;
+    height: 20vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 5vw;
+    left: 3vw;
+}
+
+.infobox3 {
+    background-color: #F2F1F0;
+    width: 90vw;
+    height: 20vw;
+    position: absolute;
+    top: 121vw;
+    left: 5vw;
+}
+
+.infotxt3 {
+    background-image: url(materialertxt3.svg);
+    width: 100vw;
+    height: 20vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 5vw;
+    left: 3vw;
+}
+
+.materialerattachmentikon {
+    background-image: url(Attachment.svg);
+    width: 100vw;
+    height: 20vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 15vw;
+    left: 95vw;
+    transform: scale(1.3);
+}

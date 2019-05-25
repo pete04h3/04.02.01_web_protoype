@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="44" viewBox="0 0 96 44">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3f3140;
+        font-size: 20px;
+        font-family: Gibson-SemiBold, Gibson;
+        font-weight: 600;
+      }
+
+      .cls-2 {
+        fill: #707070;
+        font-size: 16px;
+        font-family: Gibson-Regular, Gibson;
+        font-weight: 400;
+      }
+    </style>
+  </defs>
+  <text id="Materialer_Semester:_1" data-name="Materialer
+Semester: 1" class="cls-1" transform="translate(0 16)"><tspan x="0" y="0">Materialer</tspan><tspan class="cls-2"><tspan x="0" y="25">Semester: 1</tspan></tspan></text>
+</svg>
