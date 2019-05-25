@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="36" viewBox="0 0 46 36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bcc5d3;
+        font-size: 16px;
+        font-family: Gibson-Regular, Gibson;
+      }
+    </style>
+  </defs>
+  <text id="_08:30_09:15" data-name="08:30 
+09:15" class="cls-1" transform="translate(0 13)"><tspan x="0" y="0">08:30 </tspan><tspan x="0" y="20">09:15</tspan></text>
+</svg>

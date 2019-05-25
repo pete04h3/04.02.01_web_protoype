@@ -166,7 +166,7 @@ img {
 #kealogoforside {
     background-image: url(kealogo.svg);
     width: 8vw;
-    height: 1.8vw;
+    height: 1.9vw;
     background-size: cover;
     position: absolute;
     background-repeat: no-repeat;
@@ -507,8 +507,8 @@ img {
 
 .burgermenukealogo {
     background-image: url(kealogo.svg);
-    width: 9vw;
-    height: 2vw;
+    width: 8vw;
+    height: 1.9vw;
     background-size: cover;
     position: absolute;
     background-repeat: no-repeat;
@@ -723,13 +723,315 @@ img {
 }
 
 /* skema & tid */
+
+/* skemabox modul1 hvid box med tid */
+.skemabox1 {
+    background-color: #FFFFFF;
+    width: 100vw;
+    height: 15vw;
+    position: absolute;
+    top: 68vw;
+
+
+}
+
+.tid1 {
+    background-image: url(0830%200915.svg);
+    position: absolute;
+    width: 100vw;
+    height: 15vw;
+    background-repeat: no-repeat;
+    top: 3vw;
+    left: 4vw;
+}
+
+.skemabox2 {
+    background-color: #FFFFFF;
+    width: 100vw;
+    height: 15vw;
+    position: absolute;
+    top: 83vw;
+    border-top: 1px solid #E2E8ED;
+
+
+}
+
+.tid2 {
+    background-image: url(09151000.svg);
+    position: absolute;
+    width: 100vw;
+    height: 15vw;
+    background-repeat: no-repeat;
+    top: 3vw;
+    left: 4vw;
+}
+
+/* greybox modul1 box */
+.modul1greybox {
+    background-color: #F2F1F0;
+    position: absolute;
+    width: 75vw;
+    height: 31vw;
+    top: 68vw;
+    left: 20vw;
+    /* arrangere den grå box oven på de hvide */
+    /* Z-index kontrollerer hvordan images eller divs stacker oven på hinanden.
+    Div/image med højere z-index value tager front place hvor lavere
+    vil put-to-back */
+    z-index: 1;
+    /* slut */
+
+
+}
+
+/* modul1 txt */
+.modul1txt {
+    background-image: url(Group%201626.svg);
+    width: 100vw;
+    height: 20vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 4vw;
+    left: 3vw;
+}
+
+/* mappe og attachment ikoner modul1 */
+.modul1mappeikon {
+    background-image: url(Folder.svg);
+    width: 100vw;
+    height: 20vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -3vw;
+    left: 36vw;
+    transform: scale(0.4)
+}
+
+.modul1attachmentikon {
+    background-image: url(Attachment.svg);
+    width: 100vw;
+    height: 20vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 11vw;
+    left: 66vw;
+
+}
+
+/* skemabox modul2 hvid box med tid */
+.skemabox3 {
+    background-color: #FFFFFF;
+    width: 100vw;
+    height: 15vw;
+    position: absolute;
+    top: 104vw;
+
+
+}
+
+.tid3 {
+    background-image: url(10151100.svg);
+    position: absolute;
+    width: 100vw;
+    height: 15vw;
+    background-repeat: no-repeat;
+    top: 3vw;
+    left: 4vw;
+}
+
+.skemabox4 {
+    background-color: #FFFFFF;
+    width: 100vw;
+    height: 15vw;
+    position: absolute;
+    top: 119vw;
+    border-top: 1px solid #E2E8ED;
+
+
+}
+
+.tid4 {
+    background-image: url(11001145.svg);
+    position: absolute;
+    width: 100vw;
+    height: 20vw;
+    background-repeat: no-repeat;
+    top: 3vw;
+    left: 4vw;
+}
+
+/* grey box modul 2 box */
+.modul2greybox {
+    background-color: #F2F1F0;
+    position: absolute;
+    width: 75vw;
+    height: 31vw;
+    top: 104vw;
+    left: 20vw;
+    /* arrangere den grå box oven på de hvide */
+    /* Z-index kontrollerer hvordan images eller divs stacker oven på hinanden.
+    Div/image med højere z-index value tager front place hvor lavere
+    vil put-to-back */
+    z-index: 1;
+    /* slut */
+
+}
+
+/* modul2 txt */
+.modul2txt {
+    background-image: url(Group%201627.svg);
+    width: 100vw;
+    height: 20vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 4vw;
+    left: 3vw;
+}
+
+/* modul2 attachment ikon */
+.modul2attachmentikon {
+    background-image: url(Attachment.svg);
+    width: 100vw;
+    height: 20vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 6vw;
+    left: 66vw;
+
+}
+
+/* skemabox modul3 hvid box med tid */
+.skemabox5 {
+    background-color: #FFFFFF;
+    width: 100vw;
+    height: 15vw;
+    position: absolute;
+    top: 140vw;
+
+
+}
+
+.tid5 {
+    background-image: url(12301315.svg);
+    position: absolute;
+    width: 100vw;
+    height: 15vw;
+    background-repeat: no-repeat;
+    top: 3vw;
+    left: 4vw;
+}
+
+.skemabox6 {
+    background-color: #FFFFFF;
+    width: 100vw;
+    height: 15vw;
+    position: absolute;
+    top: 155vw;
+    border-top: 1px solid #E2E8ED;
+
+
+}
+
+.tid6 {
+    background-image: url(1315%201400.svg);
+    position: absolute;
+    width: 100vw;
+    height: 15vw;
+    background-repeat: no-repeat;
+    top: 3vw;
+    left: 4vw;
+}
+
+/* greybox modul3 */
+.modul3greybox {
+    background-color: #F2F1F0;
+    position: absolute;
+    width: 75vw;
+    height: 15vw;
+    top: 140vw;
+    left: 20vw;
+    /* arrangere den grå box oven på de hvide */
+    /* Z-index kontrollerer hvordan images eller divs stacker oven på hinanden.
+    Div/image med højere z-index value tager front place hvor lavere
+    vil put-to-back */
+    z-index: 1;
+    /* slut */
+
+
+}
+
+/* modul3 txt */
+.modul3txt {
+    background-image: url(Group%201628.svg);
+    width: 100vw;
+    height: 20vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 4vw;
+    left: 3vw;
+}
+
+/* mappe ikon modul3 */
+.modul3mappeikon {
+    background-image: url(Folder.svg);
+    width: 100vw;
+    height: 20vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 36vw;
+    transform: scale(0.4)
+}
+
+/* skemabox modul4 hvid box med tid */
+.skemabox7 {
+    background-color: #FFFFFF;
+    width: 100vw;
+    height: 15vw;
+    position: absolute;
+    top: 176vw;
+
+
+}
+
+.tid7 {
+    background-image: url(1415%201500.svg);
+    position: absolute;
+    width: 100vw;
+    height: 15vw;
+    background-repeat: no-repeat;
+    top: 3vw;
+    left: 4vw;
+}
+
+.skemabox8 {
+    background-color: #FFFFFF;
+    width: 100vw;
+    height: 15vw;
+    position: absolute;
+    top: 190vw;
+    border-top: 1px solid #E2E8ED;
+
+
+}
+
+.tid8 {
+    background-image: url(1500%201545.svg);
+    position: absolute;
+    width: 100vw;
+    height: 15vw;
+    background-repeat: no-repeat;
+    top: 3vw;
+    left: 4vw;
+}
+
 /* darkfooterbox */
 .darkfooterbox {
     background-color: #3F3140;
     width: 100vw;
-    height: 20vw;
+    height: 15vw;
     position: absolute;
     top: 200vw;
+    margin-top: 5vw;
 }
 
 .darkfooterboxskemaikon {
@@ -738,6 +1040,8 @@ img {
     height: 100vw;
     background-repeat: no-repeat;
     position: absolute;
-    top: 8vw;
-    left: 42vw
+    top: 5vw;
+    left: 40vw;
 }
+
+/* skema skærm slut */

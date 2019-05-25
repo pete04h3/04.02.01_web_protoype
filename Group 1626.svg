@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="72" height="31" viewBox="0 0 72 31">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 15px;
+        font-family: Gibson-SemiBold, Gibson;
+        font-weight: 600;
+      }
+
+      .cls-2 {
+        font-size: 12px;
+        font-family: Gibson-Regular, Gibson;
+      }
+    </style>
+  </defs>
+  <g id="Group_1626" data-name="Group 1626" transform="translate(310 -1386)">
+    <text id="Modul_1_" data-name="Modul 1 " class="cls-1" transform="translate(-279 1398)"><tspan x="-28.605" y="0">Modul 1 </tspan></text>
+    <text id="Ide_og_design" data-name="Ide og design" class="cls-2" transform="translate(-274 1414)"><tspan x="-35.082" y="0">Ide og design</tspan></text>
+  </g>
+</svg>

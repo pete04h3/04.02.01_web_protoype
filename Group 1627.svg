@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="58" height="32" viewBox="0 0 58 32">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 15px;
+        font-family: Gibson-SemiBold, Gibson;
+        font-weight: 600;
+      }
+
+      .cls-2 {
+        font-size: 12px;
+        font-family: Gibson-Regular, Gibson;
+      }
+    </style>
+  </defs>
+  <g id="Group_1627" data-name="Group 1627" transform="translate(311 -1469)">
+    <text id="Modul_2" data-name="Modul 2" class="cls-1" transform="translate(-282 1481)"><tspan x="-28.313" y="0">Modul 2</tspan></text>
+    <text id="Øvelser" class="cls-2" transform="translate(-311 1499)"><tspan x="0" y="0">Øvelser</tspan></text>
+  </g>
+</svg>
