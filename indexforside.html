@@ -1,79 +1,156 @@
 <!DOCTYPE html>
 <html lang="da">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forside</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://use.typekit.net/bqx8qom.css">
+
+
 </head>
 
 <body>
-    <nav>
-
-    </nav>
     <header>
-        <section id="whitebox">
-            <section id="statusbartid"></section>
-            <section id="statusbarbatteriwifi"></section>
-        </section>
+        <nav>
+
+            <img id="menuknap" src=Menu.svg alt="burgermenu">
+
+
+            <ul id="menu" class="hidden">
+                <img class="kealogoburgermenu" src="kealogo.svg" alt="kealogoburgermenu">
+
+                <li>Aktuelt</li>
+                <a href="indexskema.html">
+                    <li>Skema</li>
+                </a>
+                <li>Afleveringer</li>
+                <a href="indexmaterialer.html">
+                    <li>Materialer</li>
+                </a>
+                <li>Chat</li>
+                <li>Indstillinger</li>
+                <article class="logudbox"><a href="index.html">Log ud</a></article>
+
+            </ul>
+
+
+
+
+
+            <section id="orange2">
+                <article id="orangebackground2"></article>
+
+                <a href="indexforside.html">
+                    <article id="profillogo"></article>
+                </a>
+                <article id="kealogoforside"></article>
+            </section>
+
+        </nav>
     </header>
     <main>
-        <section id="orange2">
-            <article id="orangebackground2"></article>
-            <article id="burgermenu"></article>
-            <article id="profillogo"></article>
-            <article id="kealogoforside"></article>
+
+        <section id="boxrow1">
+            <article class="box1"><a href="indexmaterialer.html">
+
+                    <figure><img src="Folder.svg">
+
+                    </figure>
+                    <figcaption>Materialer</figcaption>
+                </a> </article>
+            <article class="box1"><a href="indexskema.html">
+                    <figure><img src="Calendar.svg">
+
+                    </figure>
+                    <figcaption>Skema</figcaption>
+                </a></article>
+            <article class="box1">
+                <figure><img src="Alert.svg">
+
+                </figure>
+                <figcaption>Notifikationer</figcaption>
+            </article>
+
+        </section>
+        <section id="boxrow2">
+            <article class="box2">
+                <p class="techloungetxt">Techlounge</p>
+            </article>
+            <article class="box1">
+                <figure><img src="Messages.svg">
+
+                </figure>
+                <figcaption>Mail</figcaption>
+            </article>
         </section>
         <section id="boxrow1">
             <article class="box1">
-                <article class="materialerikon"></article>
+                <figure><img src="Bookmark.svg">
+
+                </figure>
+                <figcaption>Favoritter</figcaption>
             </article>
-            <article class="box2">
-                <article class="kalenderikon"></article>
+            <article class="box1">
+                <figure class="grupperikon"><img src="grupper.svg">
+
+                </figure>
+                <figcaption class="gruppertxt">Grupper</figcaption>
             </article>
-            <article class="box3">
-                <article class="notifikationerikon"></article>
+            <article class="box1">
+                <figure class="chatikon"><img src="chatikon.svg">
+
+                </figure>
+                <figcaption>Chat</figcaption>
             </article>
-        </section>
-        <section id="boxrow2">
-            <article class="techlounge">
-                <article class="techloungetxt"></article>
-            </article>
-            <article class="box4">
-                <article class="mailikon"></article>
-            </article>
+
         </section>
         <section id="boxrow3">
-            <article class="box5">
-                <article class="favoritterikon"></article>
-            </article>
-            <article class="box6">
-                <article class="grupperikon"></article>
-            </article>
-            <article class="box7">
-                <article class="chatikon"></article>
-            </article>
+            <div class="colleft">
+                <article class="box1">
+                    <figure><img src="Search.svg">
+
+                    </figure>
+                    <figcaption>Søg</figcaption>
+                </article>
+                <article class="box1">
+                    <figure><img src="Component%205%20%E2%80%93%203.svg">
+
+                    </figure>
+                    <figcaption>Afleveringer</figcaption>
+                </article>
+            </div>
+            <div class="colright">
+                <article class="box3">
+                    <p class="aktuelt">Aktuelt</p>
+                </article>
+            </div>
         </section>
-        <section id="boxrow4">
-            <article class="box8">
-                <article class="soegikon"></article>
+        <section id="boxrow1">
+            <article class="box1">
+                <figure><img src="Folder.svg">
+
+                </figure>
+                <figcaption>Materialer</figcaption>
             </article>
-        </section>
-        <section id="boxrow5">
-            <article class="box9">
-                <article class="afleveringerikon"></article>
+            <article class="box1">
+                <figure><img src="Folder.svg">
+
+                </figure>
+                <figcaption>Materialer</figcaption>
             </article>
-        </section>
-        <section id="bigbox">
-            <article class="bigboxframe">
-                <article class="aktuelttxt"></article>
+            <article class="box1">
+                <figure><img src="Folder.svg">
+
+                </figure>
+                <figcaption>Materialer</figcaption>
             </article>
-        </section>
-        <section id="boxrow6">
-            <article class="box10"></article>
-            <article class="box11"></article>
-            <article class="box12"></article>
+
         </section>
     </main>
-    <script src=""></script>
-</body></html>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

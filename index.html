@@ -4,29 +4,46 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Login</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://use.typekit.net/bqx8qom.css">
+
+
 </head>
 
 <body>
 
     <nav>
+        <article class="logo"></article>
 
 
 
     </nav>
     <header>
-        <section id="statusbartid"></section>
-        <section id="statusbarbatteriwifi"></section>
-        <article class="logo"></article>
-    </header>
-    <main>
-
         <section id="orange">
             <article id="orangebackground"></article>
         </section>
-        <section id="login"></section>
-        <section id="login2"></section>
+
+    </header>
+    <main>
+        <section>
+            <form action="indexforside.html" class="formgroup">
+                <label class="brugernavn"></label>
+                <input type="text" id=brugernavnlogin placeholder="   johndoe@mail.com">
+                <label class="password"></label>
+                <input type="password" id=passwordlogin placeholder="   ******">
+
+                <a href="indexforside.html">
+                    <input id="login" type="submit" value="CONTINUE">
+                </a>
+                <a href="https://www.facebook.com/?stype=lo&jlou=AfdSffyzWA4QDNxLi42hMDWt28n-j616oMooNYW-iZDsr-H4XJF-Gcjs1bkWeSgawORlugtXyJuCoFJ8bLMTsM0t&smuh=12353&lh=Ac9i6yfk96C_yhEz">
+                    <input id="loginfb" type="submit" value="LOGIN WITH FACEBOOK">
+                    <article class="facebooklogo"><img src=facebook2logo.svg></article>
+                </a></form>
+        </section>
+        <input type="checkbox" class="checkboxlogin">
+        <article class="huskmiglogin"> Husk login?</article>
+
 
 
 
@@ -34,9 +51,10 @@
 
     </main>
     <footer>
-        <section id="continue"></section>
-        <section id="loginfacebook"></section>
+
     </footer>
 
-    <script src=""></script>
-</body></html>
+    <script src="script.js"></script>
+</body>
+
+</html>

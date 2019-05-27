@@ -2,52 +2,38 @@
 body {
     background-color: #FAF7F7;
     margin: 0 auto;
-    width: 100%;
-    height: 100%;
     padding: 0;
-    overflow: hidden;
-}
 
-html {
-    margin: 0 auto;
 }
 
 
 header {}
 
 img {
-    width: 100%
+    width: 100%;
 }
 
-/* Statusbar klokken/tid */
-
-#statusbartid {
-
-    background-image: url(Bars-_-Time%20Black.svg);
-    position: absolute;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 20vw;
-    top: 2vw;
-    left: 4vw;
+.wrapper {
+    max-width: 375px;
 }
 
-/* statusbar batteri og wifi */
 
-#statusbarbatteriwifi {
-    background-image: url(Group%201611.svg);
-    position: absolute;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 50vw;
-    left: 77vw;
-    top: 3vw;
+figcaption {
+    font-family: "gibson", sans-serif;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: -2vw;
+    color: #F58E81;
+}
+
+figure {
+    margin-top: 6vw;
 }
 
 /* orange baggrund i toppen af skærmen */
 #orangebackground {
     background-color: #EA5045;
-    width: 100vw;
+    width: 100%;
     height: 55vw;
     background-repeat: no-repeat;
     background-size: cover;
@@ -68,65 +54,97 @@ img {
 
 
 /* login knap */
-
-#login {
-    background-image: url(inputs.svg);
-    width: 100vw;
-    height: 100vw;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 85vw;
-    left: 12vw;
+#brugernavnlogin {
+    border-radius: 25px;
+    border: 1px solid #FAF7F7;
+    color: #EA5045;
+    width: 70vw;
+    height: 10vw;
+    margin-bottom: 30px;
+    margin-top: 50px
 }
 
+
 /* password knap */
-#login2 {
-    background-image: url(inputs-1.svg);
-    width: 100vw;
-    height: 100vw;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 105vw;
-    left: 12vw;
+#passwordlogin {
+    border-radius: 25px;
+    border: 1px solid #FAF7F7;
+    width: 70vw;
+    height: 10vw;
+    margin-bottom: 200px
+}
+
+form {
+    margin: 15vw;
+    font-size: 0.9rem;
+}
+
+input {
+    color: #EA5045;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* continue knap */
-#continue {
-    background-image: url(Continue.svg);
-    width: 100vw;
-    height: 100vw;
-    position: absolute;
-    background-repeat: no-repeat;
-    top: 160vw;
-    left: 12vw;
-    cursor: pointer;
+#login {
+    border-radius: 25px;
+    border: 1px solid #EA5045;
+    background-color: #EA5045;
+    color: #FFFFFF;
+    width: 70vw;
+    height: 10vw;
+    margin-bottom: 20px;
+    font-family: "gibson", sans-serif;
 }
 
 /* login facebook knap */
-#loginfacebook {
-    background-image: url(Login.svg);
-    width: 100vw;
-    height: 100vw;
+#loginfb {
+    border-radius: 25px;
+    border: 2.5px solid #EA5045;
+    background-color: #FAF7F7;
+    color: #EA5045;
+    width: 70vw;
+    height: 10vw;
+    margin-bottom: 30px;
+    font-family: "gibson", sans-serif;
+    font-size: 0.9rem;
+
+}
+
+.facebooklogo {
+    width: 4vw;
+    height: 10vw;
     position: absolute;
-    background-repeat: no-repeat;
-    top: 180vw;
-    left: 12vw;
+    bottom: 22vw;
+    margin-left: 4vw;
+    margin-bottom: -1vw;
+}
+
+.checkboxlogin {
+    position: absolute;
+    left: 38vw;
+    top: 119.4vw;
+    transform: scale(1.4);
+
+}
+
+.huskmiglogin {
+    position: absolute;
+    left: 45vw;
+    top: 120vw;
+    font-size: 0.8rem;
+    font-family: "gibson", sans-serif;
+    font-weight: 500;
+
 }
 
 /* Login skærm slut */
 
 /* Forside */
 
-/* hvidt stykke i toppen af skærm */
-
-#whitebox {
-    background-color: white;
-    width: 99vw;
-    height: 9vw;
-
-}
-
-/* orange stykke efter det hvide i toppen af skærm */
+/* orange stykke i toppen af skærm */
 #orangebackground2 {
     background-color: #EA5045;
     width: 100vw;
@@ -138,14 +156,13 @@ img {
 
 /* burgermenu forside */
 
-#burgermenu {
-    background-image: url(Menu.svg);
+#menuknap {
     width: 4vw;
     height: 4vw;
     background-size: cover;
     position: absolute;
     background-repeat: no-repeat;
-    top: 15vw;
+    top: 5vw;
     right: 7vw;
 }
 
@@ -158,7 +175,7 @@ img {
     background-size: cover;
     position: absolute;
     background-repeat: no-repeat;
-    top: 15vw;
+    top: 5vw;
     right: 18vw
 }
 
@@ -170,341 +187,112 @@ img {
     background-size: cover;
     position: absolute;
     background-repeat: no-repeat;
-    top: 16vw;
+    top: 6vw;
     left: 8vw;
     transform: scale(2);
 }
 
 /* boxes på forsiden*/
 /* boxrow1 */
+#boxrow1 {
+    display: flex;
+
+}
+
 .box1 {
-    border: 1px solid black;
+
     background-color: #FFFFFF;
-    width: 109.92px;
-    height: 109.92px;
-    position: absolute;
-    left: 3vw;
-    margin-top: 20px;
+    border: 5px solid #FAF7F7;
+    flex-grow: 1;
+    flex-basis: 100px;
+    width: 30vw;
+    height: 30vw;
+
+
+
+}
+
+/* boxrow2 */
+#boxrow2 {
+    display: flex;
 }
 
 .box2 {
-    border: 1px solid black;
     background-color: #FFFFFF;
-    width: 109.92px;
-    height: 109.92px;
-    position: absolute;
-    left: 35vw;
-    margin-top: 20px;
+    border: 5px solid #FAF7F7;
+    flex-grow: 2;
+    flex-basis: 200px;
 
+}
+
+/* boxrow3 */
+#boxrow3 {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 100px;
 }
 
 .box3 {
-    border: 1px solid black;
+
     background-color: #FFFFFF;
-    width: 109.92px;
-    height: 109.92px;
-    position: absolute;
-    left: 67vw;
-    margin-top: 20px;
-
-}
-
-/* boxrow2 */
-/* techloungebox */
-.techlounge {
-    border: 1px solid black;
-    background-color: #FFFFFF;
-    height: 109.92px;
-    width: 228.92px;
-    position: absolute;
-    margin-top: 140px;
-    left: 3vw;
-
-}
-
-.box4 {
-    border: 1px solid black;
-    background-color: #FFFFFF;
-    width: 109.92px;
-    height: 109.92px;
-    position: absolute;
-    left: 67vw;
-    margin-top: 140px;
-
-}
-
-/* boxrow3 */
-
-.box5 {
-    border: 1px solid black;
-    background-color: #FFFFFF;
-    width: 109.92px;
-    height: 109.92px;
-    position: absolute;
-    left: 3vw;
-    margin-top: 260px;
-}
-
-.box6 {
-    border: 1px solid black;
-    background-color: #FFFFFF;
-    width: 109.92px;
-    height: 109.92px;
-    position: absolute;
-    left: 35vw;
-    margin-top: 260px;
-
-}
-
-.box7 {
-    border: 1px solid black;
-    background-color: #FFFFFF;
-    width: 109.92px;
-    height: 109.92px;
-    position: absolute;
-    left: 67vw;
-    margin-top: 260px;
-
-}
-
-/* boxrow4 */
-.box8 {
-    border: 1px solid black;
-    background-color: #FFFFFF;
-    width: 109.92px;
-    height: 109.92px;
-    position: absolute;
-    left: 3vw;
-    margin-top: 380px;
-}
-
-/* boxrow5 */
-.box9 {
-    border: 1px solid black;
-    background-color: #FFFFFF;
-    width: 109.92px;
-    height: 109.92px;
-    position: absolute;
-    left: 3vw;
-    margin-top: 500px;
-}
-
-/* bigbox */
-.bigboxframe {
-    border: 1px solid black;
-    background-color: #FFFFFF;
-    width: 228.92px;
-    height: 227.92px;
-    position: absolute;
-    left: 35vw;
-    margin-top: 380px
-}
-
-/* boxrow6 */
-.box10 {
-    border: 1px solid black;
-    background-color: #FFFFFF;
-    width: 109.92px;
-    height: 109.92px;
-    position: absolute;
-    left: 3vw;
-    margin-top: 620px;
-}
-
-.box11 {
-    border: 1px solid black;
-    background-color: #FFFFFF;
-    width: 109.92px;
-    height: 109.92px;
-    position: absolute;
-    left: 35vw;
-    margin-top: 620px;
-
-}
-
-.box12 {
-    border: 1px solid black;
-    background-color: #FFFFFF;
-    width: 109.92px;
-    height: 109.92px;
-    position: absolute;
-    left: 67vw;
-    margin-top: 620px;
-
-}
-
-/* box indhold */
-/* box1 materialer */
-.materialerikon {
-    background-image: url(Group%201614.svg);
-    width: 58vw;
-    height: 62vw;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 7vw;
-    left: 6.5vw;
-    align-content: center;
-}
-
-/* box2 kalender */
-.kalenderikon {
-    background-image: url(Group%201617.svg);
-    width: 58vw;
-    height: 62vw;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 7vw;
-    left: 9vw;
-    align-content: center;
+    border: 5px solid #FAF7F7;
+    flex-grow: 2;
+    flex-basis: 200px;
+    width: 64vw;
 
 
 }
 
-/* box3 notifikationer */
-.notifikationerikon {
-    background-image: url(Group%201618.svg);
-    width: 58vw;
-    height: 62vw;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 7vw;
-    left: 4.5vw;
-    align-content: center;
-
-}
-
-/* boxrow2 */
-/* techlounge txt */
+/* techloungetxt */
 .techloungetxt {
-    background-image: url(Techlounge.svg);
-    width: 58vw;
-    height: 62vw;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 12vw;
-    left: 16vw;
-    align-content: center;
-
-
+    color: #F58E81;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 12vw;
+    font-family: "gibson", sans-serif;
+    font-weight: 500;
 }
 
-/* mail ikon */
-.mailikon {
-    background-image: url(Group%201620.svg);
-    width: 58vw;
-    height: 62vw;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 7vw;
-    left: 9vw;
-    align-content: center;
-
+/* aktuelt txt */
+.aktuelt {
+    color: #F58E81;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 25vw;
+    font-family: "gibson", sans-serif;
+    font-weight: 500;
 }
 
-/* boxrow3 */
-/* box5 favoritter*/
-.favoritterikon {
-    background-image: url(Group%201615.svg);
-    width: 58vw;
-    height: 62vw;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 7vw;
-    left: 6.5vw;
-    align-content: center;
+
+
+
+.colleft {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-/* box6 grupper */
+.colright {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* grupper billede og tekst */
 .grupperikon {
-    background-image: url(Group%201616.svg);
-    width: 58vw;
-    height: 62vw;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 8vw;
-    left: 8vw;
-    align-content: center;
-
+    transform: scale(1.5);
+    margin-top: 8.5vw;
 
 }
 
-/* box7 chat */
 .chatikon {
-    background-image: url(Group%201613.svg);
-    width: 58vw;
-    height: 62vw;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 7vw;
-    left: 6vw;
-    align-content: center;
-
-}
-
-/* boxrow4 */
-/* box8 søg */
-.soegikon {
-    background-image: url(Group%201622.svg);
-    width: 58vw;
-    height: 62vw;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 8vw;
-    left: 9vw;
-    align-content: center;
-}
-
-/* boxrow5 */
-/* box9 afleveringer */
-.afleveringerikon {
-    background-image: url(Group%201621.svg);
-    width: 58vw;
-    height: 62vw;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 8vw;
-    left: 5.5vw;
-    align-content: center;
-
-
-}
-
-/* bixbox aktuelt txt */
-.aktuelttxt {
-    background-image: url(Aktuelt.svg);
-    width: 58vw;
-    height: 62vw;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 26vw;
-    left: 12vw;
-    align-content: center;
+    transform: scale(1.5);
+    margin-top: 8.5vw;
 }
 
 /* forside slut */
 /****************/
-/* burger menu */
-/* baggrund */
-.burgermenubaggrundframe {
-    background-color: #3F3140;
-    width: 375vw;
-    height: 812vw;
-    position: absolute;
-}
 
-/* lukke kryds for burger menu */
-.lukburgermenu {
-    background-image: url(lukburgermenu.svg);
-    position: absolute;
-    background-repeat: no-repeat;
-    width: 20vw;
-    height: 20vw;
-    top: 5vw;
-    left: 89vw;
-
-
-}
-
+/* Burgermenu */
 .burgermenukealogo {
     background-image: url(kealogo.svg);
     width: 8vw;
@@ -518,76 +306,58 @@ img {
 }
 
 
-/* Burgermnu knapper */
-.aktueltknap {
-    background-image: url(Aktuelt.svg);
-    width: 264vw;
-    height: 24vw;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 50vw;
-    left: -35vw;
-    transform: scale(0.4);
+
+#menu {
+    position: fixed;
+    right: 10;
+    top: 0;
+    bottom: 0;
+    left: -10vw;
+    padding: 40vw;
+    font-family: "gibson", sans-serif;
     text-align: center;
-
+    z-index: 1;
+    margin: 0;
+    font-size: 1.5rem;
+    color: #EA5045;
+    background-color: #3F3140;
 
 }
 
-.skemaknap {
-    background-image: url(Skema.svg);
-    width: 10vw;
-    height: 3vw;
-    background-repeat: no-repeat;
+.kealogoburgermenu {
     position: absolute;
-    top: 71vw;
-    left: 46vw;
-    transform: scale(1.3)
-}
-
-.afleveringerknap {
-    background-image: url(Afleveringer.svg);
-    width: 20vw;
-    height: 4vw;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 85vw;
-    left: 43vw;
-    transform: scale(1.3)
-}
-
-.materialerknap {
-    background-image: url(Materialer.svg);
-    width: 20vw;
-    height: 4vw;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 100vw;
-    left: 45vw;
-    transform: scale(1.3)
-}
-
-.chatknap {
-    background-image: url(Chat.svg);
     width: 50vw;
-    height: 5vw;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 113vw;
-    left: 18vw;
+    height: 10vw;
+    top: 20vw;
+    margin-left: -25vw;
     transform: scale(0.8);
-
 
 }
 
-.indstillingerknap {
-    background-image: url(Indstillinger.svg);
-    width: 264vw;
-    height: 24vw;
-    background-repeat: no-repeat;
+#menuknap {
+    z-index: 10;
+}
+
+.hidden {
+    display: none;
+}
+
+#menu li {
+    padding: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.logudbox {
+    background-color: #F58E81;
+    color: #FFFF;
     position: absolute;
-    top: 125vw;
-    left: -3vw;
-    transform: scale(0.8);
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 1rem 0;
 
 
 }
@@ -605,18 +375,6 @@ img {
 
 }
 
-/* logudtxt */
-.logudtxt {
-    background-image: url(Log%20ud.svg);
-    width: 20vw;
-    height: 10vw;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 4vw;
-    left: 41.5vw;
-
-
-}
 
 /* burgermenu slut */
 /*******************/
@@ -630,25 +388,68 @@ img {
 
 /* tema/semester/skema txt i lightgreybox */
 .tematxt {
-    background-image: url(Tema%204Basic%20UX.svg);
-    width: 30vw;
-    height: 20vw;
+    /*background-image: url(Tema%204Basic%20UX.svg);*/
+    width: 20vw;
+    height: 10vw;
     position: absolute;
     background-repeat: no-repeat;
     top: 8vw;
-    left: 80vw;
+    left: 76vw;
     transform: scale(1.04)
 }
 
+.tematxtparagraph1 {
+    font-family: "gibson", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    position: absolute;
+    top: -5vw;
+    left: 6vw;
+    text-align: center;
+    color: #707070;
+}
+
+.tematxtparagraph2 {
+    font-family: "gibson", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 300;
+    position: absolute;
+    top: 2vw;
+    left: 6vw;
+    text-align: center;
+    color: #707070;
+}
+
 .skemaogsemestertxt {
-    background-image: url(SkemaSemester%201.svg);
+    /*background-image: url(SkemaSemester%201.svg);*/
     width: 30vw;
     height: 20vw;
     position: absolute;
     background-repeat: no-repeat;
     top: 7vw;
-    left: 3vw;
 
+}
+
+.skemasemestertxtparagraph1 {
+    font-family: "gibson", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    position: absolute;
+    top: -6vw;
+    left: 3vw;
+    text-align: center;
+    color: #3F3140;
+}
+
+.skemasemestertxtparagraph2 {
+    font-family: "gibson", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 100;
+    position: absolute;
+    top: 3vw;
+    left: 3vw;
+    text-align: center;
+    color: #707070;
 }
 
 /* darkgreybox */
@@ -668,7 +469,7 @@ img {
     height: 3vw;
     background-repeat: no-repeat;
     position: absolute;
-    top: 8vw;
+    top: 8.2vw;
     left: 32vw;
 }
 
@@ -678,7 +479,7 @@ img {
     height: 3vw;
     background-repeat: no-repeat;
     position: absolute;
-    top: 8vw;
+    top: 8.2vw;
     left: 65.5vw;
 }
 
@@ -689,11 +490,12 @@ img {
     position: absolute;
     top: 2vw;
     left: 42.8vw;
+
 }
 
 
 .maaned {
-    background-image: url(Maj.svg);
+    /*background-image: url(Maj.svg);*/
     width: 6vw;
     height: 5vw;
     background-repeat: no-repeat;
@@ -702,8 +504,21 @@ img {
     left: 5vw
 }
 
+.majtxt {
+    font-family: "gibson", sans-serif;
+    width: 8vw;
+    height: 5vw;
+    font-size: 0.9rem;
+    position: absolute;
+    z-index: 10;
+    margin-top: 0.4vw;
+    left: -0.8vw;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
 .dag {
-    background-image: url(Mandag.svg);
+    /*background-image: url(Mandag.svg);*/
     width: 10vw;
     height: 2vw;
     background-repeat: no-repeat;
@@ -712,14 +527,40 @@ img {
     left: 3vw
 }
 
+.dagtxt {
+    position: absolute;
+    text-align: center;
+    font-family: "gibson", sans-serif;
+    font-size: 0.7rem;
+    color: #FFFFFF;
+    margin-top: -0.4vw;
+    left: -0.7vw;
+    font-weight: 200;
+
+
+}
+
 .dato {
-    background-image: url(20.svg);
+    /*background-image: url(20.svg);*/
     width: 6vw;
     height: 5vw;
     background-repeat: no-repeat;
     position: absolute;
     top: 10.5vw;
     left: 5vw;
+}
+
+.datotxt {
+    font-family: "gibson", sans-serif;
+    width: 8vw;
+    height: 5vw;
+    font-size: 0.9rem;
+    position: absolute;
+    z-index: 10;
+    margin-top: 0.4vw;
+    left: 0;
+    font-weight: 300;
+    color: #FFFFFF;
 }
 
 /* skema & tid */
@@ -730,19 +571,35 @@ img {
     width: 100vw;
     height: 15vw;
     position: absolute;
-    top: 68vw;
+    top: 58vw;
 
 
 }
 
 .tid1 {
-    background-image: url(0830%200915.svg);
+    /*background-image: url(0830%200915.svg);*/
     position: absolute;
-    width: 100vw;
+    width: 12vw;
     height: 15vw;
     background-repeat: no-repeat;
     top: 3vw;
     left: 4vw;
+}
+
+.tid1paragraph {
+    font-family: "gibson", sans-serif;
+    font-size: 1rem;
+    margin-top: 0.5vw;
+    color: #BCC5D3;
+}
+
+.tid1paragraph2 {
+    font-family: "gibson", sans-serif;
+    font-size: 1rem;
+    position: absolute;
+    top: 1vw;
+    margin-top: 5vw;
+    color: #BCC5D3;
 }
 
 .skemabox2 {
@@ -750,16 +607,16 @@ img {
     width: 100vw;
     height: 15vw;
     position: absolute;
-    top: 83vw;
+    top: 73vw;
     border-top: 1px solid #E2E8ED;
 
 
 }
 
 .tid2 {
-    background-image: url(09151000.svg);
+    /*background-image: url(09151000.svg);*/
     position: absolute;
-    width: 100vw;
+    width: 11vw;
     height: 15vw;
     background-repeat: no-repeat;
     top: 3vw;
@@ -772,7 +629,7 @@ img {
     position: absolute;
     width: 75vw;
     height: 31vw;
-    top: 68vw;
+    top: 58vw;
     left: 20vw;
     /* arrangere den grå box oven på de hvide */
     /* Z-index kontrollerer hvordan images eller divs stacker oven på hinanden.
@@ -786,8 +643,8 @@ img {
 
 /* modul1 txt */
 .modul1txt {
-    background-image: url(Group%201626.svg);
-    width: 100vw;
+    /*background-image: url(Group%201626.svg);*/
+    width: 20vw;
     height: 20vw;
     background-repeat: no-repeat;
     position: absolute;
@@ -795,22 +652,45 @@ img {
     left: 3vw;
 }
 
+.modul1txtparagraph1 {
+    font-family: "gibson", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    position: absolute;
+    top: -4vw;
+
+
+
+}
+
+.modul1txtparagraph2 {
+    font-family: "gibson", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 300;
+    position: absolute;
+    top: 0.9vw;
+    width: 25vw;
+
+
+
+}
+
 /* mappe og attachment ikoner modul1 */
 .modul1mappeikon {
     background-image: url(Folder.svg);
-    width: 100vw;
+    width: 10vw;
     height: 20vw;
     background-repeat: no-repeat;
     position: absolute;
-    top: -3vw;
-    left: 36vw;
+    top: -2vw;
+    left: 64vw;
     transform: scale(0.4)
 }
 
 .modul1attachmentikon {
     background-image: url(Attachment.svg);
-    width: 100vw;
-    height: 20vw;
+    width: 5vw;
+    height: 10vw;
     background-repeat: no-repeat;
     position: absolute;
     top: 11vw;
@@ -824,15 +704,15 @@ img {
     width: 100vw;
     height: 15vw;
     position: absolute;
-    top: 104vw;
+    top: 95vw;
 
 
 }
 
 .tid3 {
-    background-image: url(10151100.svg);
+    /*background-image: url(10151100.svg);*/
     position: absolute;
-    width: 100vw;
+    width: 12vw;
     height: 15vw;
     background-repeat: no-repeat;
     top: 3vw;
@@ -844,16 +724,16 @@ img {
     width: 100vw;
     height: 15vw;
     position: absolute;
-    top: 119vw;
+    top: 110vw;
     border-top: 1px solid #E2E8ED;
 
 
 }
 
 .tid4 {
-    background-image: url(11001145.svg);
+    /*background-image: url(11001145.svg);*/
     position: absolute;
-    width: 100vw;
+    width: 12vw;
     height: 20vw;
     background-repeat: no-repeat;
     top: 3vw;
@@ -866,7 +746,7 @@ img {
     position: absolute;
     width: 75vw;
     height: 31vw;
-    top: 104vw;
+    top: 95vw;
     left: 20vw;
     /* arrangere den grå box oven på de hvide */
     /* Z-index kontrollerer hvordan images eller divs stacker oven på hinanden.
@@ -879,8 +759,8 @@ img {
 
 /* modul2 txt */
 .modul2txt {
-    background-image: url(Group%201627.svg);
-    width: 100vw;
+    /*background-image: url(Group%201627.svg);*/
+    width: 20vw;
     height: 20vw;
     background-repeat: no-repeat;
     position: absolute;
@@ -888,11 +768,34 @@ img {
     left: 3vw;
 }
 
+.modul2txtparagraph1 {
+    font-family: "gibson", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    position: absolute;
+    top: -4vw;
+
+
+
+}
+
+.modul2txtparagraph2 {
+    font-family: "gibson", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 300;
+    position: absolute;
+    top: 0.9vw;
+    width: 25vw;
+
+
+
+}
+
 /* modul2 attachment ikon */
 .modul2attachmentikon {
     background-image: url(Attachment.svg);
-    width: 100vw;
-    height: 20vw;
+    width: 5vw;
+    height: 10vw;
     background-repeat: no-repeat;
     position: absolute;
     top: 6vw;
@@ -904,17 +807,17 @@ img {
 .skemabox5 {
     background-color: #FFFFFF;
     width: 100vw;
-    height: 15vw;
+    height: 20vw;
     position: absolute;
-    top: 140vw;
+    top: 132vw;
 
 
 }
 
 .tid5 {
-    background-image: url(12301315.svg);
+    /*background-image: url(12301315.svg);*/
     position: absolute;
-    width: 100vw;
+    width: 12vw;
     height: 15vw;
     background-repeat: no-repeat;
     top: 3vw;
@@ -926,16 +829,16 @@ img {
     width: 100vw;
     height: 15vw;
     position: absolute;
-    top: 155vw;
+    top: 145vw;
     border-top: 1px solid #E2E8ED;
 
 
 }
 
 .tid6 {
-    background-image: url(1315%201400.svg);
+    /*background-image: url(1315%201400.svg);*/
     position: absolute;
-    width: 100vw;
+    width: 12vw;
     height: 15vw;
     background-repeat: no-repeat;
     top: 3vw;
@@ -948,7 +851,7 @@ img {
     position: absolute;
     width: 75vw;
     height: 15vw;
-    top: 140vw;
+    top: 130vw;
     left: 20vw;
     /* arrangere den grå box oven på de hvide */
     /* Z-index kontrollerer hvordan images eller divs stacker oven på hinanden.
@@ -962,23 +865,46 @@ img {
 
 /* modul3 txt */
 .modul3txt {
-    background-image: url(Group%201628.svg);
-    width: 100vw;
-    height: 20vw;
+    /*background-image: url(Group%201628.svg);*/
+    width: 20vw;
+    height: 10vw;
     background-repeat: no-repeat;
     position: absolute;
     top: 4vw;
     left: 3vw;
 }
 
+.modul3txtparagraph1 {
+    font-family: "gibson", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    position: absolute;
+    top: -4vw;
+
+
+
+}
+
+.modul3txtparagraph2 {
+    font-family: "gibson", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 300;
+    position: absolute;
+    top: 0.9vw;
+    width: 25vw;
+
+
+
+}
+
 /* mappe ikon modul3 */
 .modul3mappeikon {
     background-image: url(Folder.svg);
-    width: 100vw;
-    height: 20vw;
+    width: 10vw;
+    height: 10vw;
     background-repeat: no-repeat;
     position: absolute;
-    left: 36vw;
+    left: 64vw;
     transform: scale(0.4)
 }
 
@@ -986,38 +912,37 @@ img {
 .skemabox7 {
     background-color: #FFFFFF;
     width: 100vw;
-    height: 15vw;
+    height: 25vw;
     position: absolute;
-    top: 176vw;
+    top: 170vw;
+    margin-top: -3vw;
 
 
 }
 
 .tid7 {
-    background-image: url(1415%201500.svg);
+    /*background-image: url(1415%201500.svg);*/
     position: absolute;
-    width: 100vw;
+    width: 12vw;
     height: 15vw;
     background-repeat: no-repeat;
-    top: 3vw;
+    top: 4vw;
     left: 4vw;
 }
 
 .skemabox8 {
     background-color: #FFFFFF;
     width: 100vw;
-    height: 15vw;
+    height: 20vw;
     position: absolute;
-    top: 190vw;
+    top: 185vw;
     border-top: 1px solid #E2E8ED;
-
-
 }
 
 .tid8 {
-    background-image: url(1500%201545.svg);
+    /* background-image: url(1500%201545.svg);*/
     position: absolute;
-    width: 100vw;
+    width: 12vw;
     height: 15vw;
     background-repeat: no-repeat;
     top: 3vw;
@@ -1030,18 +955,31 @@ img {
     width: 100vw;
     height: 15vw;
     position: absolute;
-    top: 200vw;
-    margin-top: 5vw;
+    bottom: 0;
+
+}
+
+.skemaikontxt {
+    color: #FFFFFF;
+    font-family: "gibson", sans-serif;
+    font-size: 0.9rem;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    right: 1vw;
+
+
 }
 
 .darkfooterboxskemaikon {
-    background-image: url(skemaikondarkbox.svg);
-    width: 100vw;
-    height: 100vw;
+    background-image: url(calendar-icon.svg);
+    width: 20vw;
+    height: 5vw;
     background-repeat: no-repeat;
     position: absolute;
-    top: 5vw;
-    left: 40vw;
+    left: 43vw;
+    margin-top: 5vw;
+    margin-bottom: 0;
 }
 
 /* skema skærm slut */
@@ -1078,13 +1016,13 @@ img {
     width: 90vw;
     height: 20vw;
     position: absolute;
-    top: 75vw;
+    top: 65vw;
     left: 5vw;
 }
 
 .infotxt1 {
     background-image: url(materialertxt1.svg);
-    width: 100vw;
+    width: 70vw;
     height: 20vw;
     background-repeat: no-repeat;
     position: absolute;
@@ -1107,13 +1045,13 @@ img {
     width: 90vw;
     height: 20vw;
     position: absolute;
-    top: 98vw;
+    top: 90vw;
     left: 5vw;
 }
 
 .infotxt2 {
     background-image: url(materialertxt2.svg);
-    width: 100vw;
+    width: 74vw;
     height: 20vw;
     background-repeat: no-repeat;
     position: absolute;
@@ -1126,13 +1064,13 @@ img {
     width: 90vw;
     height: 20vw;
     position: absolute;
-    top: 121vw;
+    top: 115vw;
     left: 5vw;
 }
 
 .infotxt3 {
     background-image: url(materialertxt3.svg);
-    width: 100vw;
+    width: 74vw;
     height: 20vw;
     background-repeat: no-repeat;
     position: absolute;
@@ -1140,13 +1078,84 @@ img {
     left: 3vw;
 }
 
+/* attachtment ikon for materialer */
 .materialerattachmentikon {
     background-image: url(Attachment.svg);
-    width: 100vw;
+    width: 10vw;
     height: 20vw;
     background-repeat: no-repeat;
     position: absolute;
     top: 15vw;
-    left: 95vw;
+    left: 82vw;
     transform: scale(1.3);
 }
+
+/* Materialerskærme slut */
+/*************************/
+/* Afleveringer */
+
+
+
+/*
+h1 {
+    color: #000000;
+    position: absolute;
+    width: 100vw;
+    height: 20vw;
+    left: 3vw;
+    margin-top: 10vw;
+    font-size: 1.5rem;
+
+
+}
+
+h2 {
+    color: #EA5045;
+    position: absolute;
+    width: 100vw;
+    height: 20vw;
+    left: 3vw;
+    margin-top: 25vw;
+    font-size: 1rem;
+}
+
+h3 {
+    color: #000000;
+    position: absolute;
+    width: 100vw;
+    height: 20vw;
+    left: 3vw;
+    margin-top: 37vw;
+    font-size: 14px;
+    z-index: 1;
+    left: 8vw;
+    font-family: ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h4 {
+
+    color: #000000;
+    position: absolute;
+    width: 100vw;
+    height: 20vw;
+    left: 3vw;
+    margin-top: 44vw;
+    font-size: 8px;
+    z-index: 1;
+    left: 8vw
+}
+
+
+.lightgreyinfoboxafleveringer1 {
+    background-color: #F2F1F0;
+    width: 93vw;
+    height: 20vw;
+    position: absolute;
+    top: 56vw;
+    left: 3vw;
+
+
+}
+*/
