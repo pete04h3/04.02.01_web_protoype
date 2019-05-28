@@ -1050,13 +1050,30 @@ ul {
 }
 
 .infotxt1 {
-    background-image: url(materialertxt1.svg);
+    /*background-image: url(materialertxt1.svg);*/
     width: 70vw;
     height: 20vw;
     background-repeat: no-repeat;
     position: absolute;
     top: 5vw;
     left: 3vw;
+}
+
+.mattxtparagraph1 {
+    font-family: "gibson", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    position: absolute;
+    top: -4vw;
+}
+
+.mattxtparagraph2 {
+    font-family: "gibson", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 300;
+    position: absolute;
+    top: 2vw;
+    width: 70vw;
 }
 
 .downloadikon {
@@ -1079,13 +1096,31 @@ ul {
 }
 
 .infotxt2 {
-    background-image: url(materialertxt2.svg);
+    /* background-image: url(materialertxt2.svg);*/
     width: 74vw;
     height: 20vw;
     background-repeat: no-repeat;
     position: absolute;
     top: 5vw;
     left: 3vw;
+}
+
+.mattxtparagraph3 {
+    font-family: "gibson", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    position: absolute;
+    top: -4vw;
+    width: 81vw;
+}
+
+.mattxtparagraph4 {
+    font-family: "gibson", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 300;
+    position: absolute;
+    top: 2vw;
+    width: 70vw;
 }
 
 .infobox3 {
@@ -1098,13 +1133,30 @@ ul {
 }
 
 .infotxt3 {
-    background-image: url(materialertxt3.svg);
+    /*background-image: url(materialertxt3.svg);*/
     width: 74vw;
     height: 20vw;
     background-repeat: no-repeat;
     position: absolute;
     top: 5vw;
     left: 3vw;
+}
+
+.mattxtparagraph5 {
+    font-family: "gibson", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    position: absolute;
+    top: -4vw;
+}
+
+.mattxtparagraph6 {
+    font-family: "gibson", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 300;
+    position: absolute;
+    top: 2vw;
+    width: 70vw;
 }
 
 /* attachtment ikon for materialer */
