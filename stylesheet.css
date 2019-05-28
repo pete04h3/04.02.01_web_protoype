@@ -10,7 +10,9 @@ body {
 header {}
 
 img {
-    width: 100%;
+
+    /*    width: 100%;*/
+
 }
 
 .wrapper {
@@ -85,6 +87,24 @@ input {
 
 a {
     text-decoration: none;
+
+}
+
+#menu a {
+    text-decoration: none;
+    font-family: "gibson", sans-serif;
+    margin-bottom: 4vw;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #EA847C;
+    margin-top: 10vw;
+    text-align: center;
+}
+
+#menu img {
+    right: 0;
+    left: 0;
+    margin-bottom: 10vw
 }
 
 /* continue knap */
@@ -285,7 +305,6 @@ a {
 }
 
 .chatikon {
-    transform: scale(1.5);
     margin-top: 8.5vw;
 }
 
@@ -309,37 +328,43 @@ a {
 
 #menu {
     position: fixed;
-    right: 10;
+    right: 0;
     top: 0;
     bottom: 0;
-    left: -10vw;
-    padding: 40vw;
+    left: 0;
+    padding: 0;
     font-family: "gibson", sans-serif;
     text-align: center;
-    z-index: 1;
+    z-index: 11;
     margin: 0;
     font-size: 1.5rem;
     color: #EA5045;
     background-color: #3F3140;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: transform .4s;
+
 
 }
 
 .kealogoburgermenu {
-    position: absolute;
-    width: 50vw;
     height: 10vw;
     top: 20vw;
-    margin-left: -25vw;
-    transform: scale(0.8);
+    transform: scale(0.9);
 
 }
 
 #menuknap {
-    z-index: 10;
+    z-index: 12;
 }
 
 .hidden {
     display: none;
+    visibility: hidden;
+
+
 }
 
 #menu li {
@@ -352,7 +377,6 @@ ul {
 
 .logudbox {
     background-color: #F58E81;
-    color: #FFFF;
     position: absolute;
     width: 100%;
     left: 0;
@@ -360,6 +384,11 @@ ul {
     padding: 1rem 0;
 
 
+
+}
+
+.logudtxt {
+    color: #FFFFFF;
 }
 
 /* orange footerbox */
