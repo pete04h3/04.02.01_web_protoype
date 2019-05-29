@@ -20,7 +20,7 @@ img {
 }
 
 
-figcaption {
+#forside p {
     font-family: "gibson", sans-serif;
     font-size: 1.1rem;
     text-align: center;
@@ -183,6 +183,17 @@ a {
 
 }
 
+#glemtpassword {
+    position: absolute;
+    left: 38vw;
+    top: 128vw;
+    font-size: 0.7rem;
+    font-family: "gibson", sans-serif;
+    font-weight: 500;
+    align-items: baseline;
+    text-align: center;
+}
+
 /* Login skærm slut */
 
 /* Forside */
@@ -271,6 +282,19 @@ a {
 /* boxrow3 */
 #boxrow3 {
     display: flex;
+}
+
+.box2 {
+    background-color: #FFFFFF;
+    border: 5px solid #FAF7F7;
+    flex-grow: 2;
+    flex-basis: 200px;
+
+}
+
+/* boxrow4 */
+#boxrow4 {
+    display: flex;
     flex-grow: 1;
     flex-basis: 100px;
 }
@@ -283,6 +307,11 @@ a {
     flex-basis: 200px;
     width: 64vw;
 
+
+}
+
+#boxrow5 {
+    display: flex;
 
 }
 
