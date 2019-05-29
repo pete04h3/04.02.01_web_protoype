@@ -26,20 +26,27 @@
 
     </header>
     <main>
-        <section>
+        <section id="loginsection">
             <form action="indexforside.html" class="formgroup">
                 <label class="brugernavn"></label>
                 <input type="text" id=brugernavnlogin placeholder="   johndoe@mail.com">
                 <label class="password"></label>
                 <input type="password" id=passwordlogin placeholder="   ******">
 
-                <a href="indexforside.html">
-                    <input id="login" type="submit" value="CONTINUE">
-                </a>
+
+                <input id="login" type="submit" value="CONTINUE">
+
+            </form>
+            <div id="loginfb">
                 <a href="https://www.facebook.com/?stype=lo&jlou=AfdSffyzWA4QDNxLi42hMDWt28n-j616oMooNYW-iZDsr-H4XJF-Gcjs1bkWeSgawORlugtXyJuCoFJ8bLMTsM0t&smuh=12353&lh=Ac9i6yfk96C_yhEz">
-                    <input id="loginfb" type="submit" value="LOGIN WITH FACEBOOK">
-                    <article class="facebooklogo"><img src=facebook2logo.svg></article>
-                </a></form>
+
+                    <div id="fbknap">
+                        <img class="facebooklogo" src=facebook2logo.svg alt=facebook2logo>LOGIN WITH FACEBOOK
+                    </div>
+                </a>
+            </div>
+
+
         </section>
         <input type="checkbox" class="checkboxlogin">
         <article class="huskmiglogin"> Husk login?</article>
@@ -55,6 +62,4 @@
     </footer>
 
     <script src="script.js"></script>
-</body>
-
-</html>
+</body></html>
